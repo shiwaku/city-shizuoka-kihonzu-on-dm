@@ -2,7 +2,7 @@
   "version": 8,
   "name": "city-shizuoka-kihonzu",
   "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
-  "sprite": "https://shiwaku.github.io/dm-sprite/sprite",
+  "sprite": "https://geolonia.github.io/smartcity-dm-sprite/sprite",
   "sources": {
     "kihonzu": {
       "type": "vector",
@@ -125,7 +125,7 @@
       "minzoom": 13,
       "maxzoom": 14,
       "layout": {
-        "icon-image": ["to-string", ["get", "Layer"]],
+        "icon-image": ["concat", "dm-", ["to-string", ["get", "Layer"]]],
         "icon-size": [
           "interpolate",
           ["linear"],
@@ -286,7 +286,7 @@
       "source-layer": "kihonzu_2500_symbol",
       "minzoom": 14,
       "layout": {
-        "icon-image": ["to-string", ["get", "Layer"]],
+        "icon-image": ["concat", "dm-", ["to-string", ["get", "Layer"]]],
         "icon-size": [
           "interpolate",
           ["linear"],
