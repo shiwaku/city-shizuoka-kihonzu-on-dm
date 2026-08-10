@@ -1,8 +1,21 @@
-# city-plan-dm-viewer
+# city-plan-dm-viewer（移転済み・アーカイブ）
+
+> ## ⚠️ このリポジトリは [shiwaku/dm-converter](https://github.com/shiwaku/dm-converter) に統合されました
+>
+> 本リポジトリは**アーカイブ済み**で、更新は行われません。コミット履歴ごと移転先の `viewer/` ディレクトリに統合されています。
+>
+> | | 移転先 |
+> |---|---|
+> | リポジトリ | https://github.com/shiwaku/dm-converter |
+> | ソース | [`viewer/`](https://github.com/shiwaku/dm-converter/tree/main/viewer) |
+> | デモ | https://shiwaku.github.io/dm-converter/ |
+>
+> 変換元のDMデータを扱うコンバーター（DM → GeoJSON）も同じリポジトリに含まれています。
 
 静岡市の都市計画基本図（1/10,000・1/2,500）をベクトルタイル化し、国土地理院の最適化ベクトルタイル（標準地図風）およびCS立体図と重ね合わせて表示するWebマップ。
 
-- **デモ**: https://shiwaku.github.io/city-plan-dm-viewer/
+- **デモ（移転先）**: https://shiwaku.github.io/dm-converter/
+- 旧URL `https://shiwaku.github.io/city-plan-dm-viewer/` は移転先へ自動転送されます
 
 ---
 
